@@ -7,7 +7,7 @@ final class Poly {
 	 * Constructorof the class which takes arr and checking the highst degress
 	 * 
 	 * @param poly Input array
-	 * @throws Exception if size is zero or less then Exception is thrown
+	 * @throws IllegalArgumentException if size is zero or less then Exception is thrown
 	 */
 	public Poly(int poly[]) throws IllegalArgumentException {
 		if (poly.length == 0) {
